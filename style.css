@@ -1,0 +1,33 @@
+ * {
+    border: 1px solid black;
+} 
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 180px;
+    
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 180px;
+    width: 800px;
+    gap: 10px;
+}
+
+.options {
+    display: flex;
+    height: 180px;
+    gap: 10px;
+}
